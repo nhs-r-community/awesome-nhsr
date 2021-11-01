@@ -14,14 +14,14 @@ resources for other languages at the end of the document.
 
 Create D3 based SVG graphics using a simple R Api
 
-(GitHub url)\[<https://feddelegrand7.github.io/ddplot/>\]
+[GitHub url](https://feddelegrand7.github.io/ddplot/)
 
 ### simplevis
 
 simplevis is a package of ggplot2 and leaflet wrapper functions that
 aims to make visualisation easier with less brainpower required.
 
-(GitHub url)\[<https://statisticsnz.github.io/simplevis>\]
+[GitHub url](https://statisticsnz.github.io/simplevis)
 
 ## Data wrangling
 
@@ -33,7 +33,7 @@ word representations, and vice versa.
 The key differentiator of this package, compared to {nombre}, is that it
 supports decimal representations by listing individual decimal digits.
 
-(GitHub url)\[<https://github.com/coolbutuseless/numberwang>\]
+[GitHub url](https://github.com/coolbutuseless/numberwang)
 
 ## Database
 
@@ -56,7 +56,7 @@ data model is complete, dm provides methods for deploying it to an
 RDBMS. This allows it to scale from datasets that fit in memory to
 databases with billions of rows.
 
-(GitHub url)\[<https://github.com/cynkra/dm>\]
+[GitHub url](https://github.com/cynkra/dm)
 
 ## Hospital Coding
 
@@ -73,7 +73,7 @@ Risk scores include those of Charlson and van Walraven. US Clinical
 Modification, Word Health Organization, Belgian and French ICD-10 codes
 are supported, most of which are downloaded on demand.
 
-(GitHub url)\[<https://github.com/jackwasey/icd>\]
+[GitHub url](https://github.com/jackwasey/icd)
 
 ### Rdiagnosislist
 
@@ -85,7 +85,7 @@ environment, searching for concepts by regular expression search,
 finding attributes of concepts, navigating the hierarchy, and handling
 lists of SNOMED CT concepts.
 
-(GitHub url)\[<https://github.com/anoopshah/Rdiagnosislist>\]
+[GitHub url](https://github.com/anoopshah/Rdiagnosislist)
 
 ### robson10classifier
 
@@ -97,7 +97,7 @@ same data frame, with an additional column for Robson_Classification.
 This can be a number from 1 to 10, or in the case that data required for
 classification was missing, “Unclassifiable”.
 
-(GitHub url)\[<https://github.com/ThomUK/robson10classifier>\]
+[GitHub url](https://github.com/ThomUK/robson10classifier)
 
 ## Modelling
 
@@ -119,7 +119,7 @@ fit. These include measures like r-squared (R2), root mean squared error
 to check (mixed) models for overdispersion, zero-inflation, convergence
 or singularity.
 
-(GitHub url)\[<https://easystats.github.io/performance/>\]
+[GitHub url](https://easystats.github.io/performance/)
 
 ## Reproducibility
 
@@ -133,7 +133,7 @@ date, runs only the necessary computation, supports implicit parallel
 computing, abstracts files as R objects, and shows tangible evidence
 that the results match the underlying code and data.
 
-(GitHub url)\[<https://docs.ropensci.org/targets/>\]
+[GitHub url](https://docs.ropensci.org/targets/)
 
 ## External data resource
 
@@ -149,14 +149,14 @@ This repository provides a simple microservice, embeddable library and
 command-line tools to allow other software to make use of deprivation
 indices in the UK
 
-(GitHub url)\[<https://github.com/wardle/deprivare>\]
+[GitHub url](https://github.com/wardle/deprivare)
 
 ### LSOA POP
 
 An R data package with Lower layer Super Output Area (LSOA) population
 estimates and Indices of Multiple Deprivation (IMD) for England
 
-(GitHub url)\[<https://nhs-r-community.github.io/LSOApop/>\]
+[GitHub url](https://nhs-r-community.github.io/LSOApop/)
 
 ### medicaldata
 
@@ -166,7 +166,7 @@ website for {medicaldata} is here and in the links at the right. This
 package will be useful for anyone teaching R to medical professionals,
 including doctors, nurses, trainees, and students.
 
-(GitHub url)\[<https://github.com/higgi13425/medicaldata/>\]
+[GitHub url](https://github.com/higgi13425/medicaldata/)
 
 ### RCPCH - Digital growth charts server
 
@@ -176,7 +176,7 @@ Digital Growth Charts API.
 
 Built with FastAPI in Python.
 
-(GitHub url)\[<https://dev.rcpch.ac.uk/>\]
+[GitHub url](https://dev.rcpch.ac.uk/)
 
 ## R Development
 
@@ -190,14 +190,14 @@ It’s especially helpful to use when authoring database-specific R
 packages, for instance in an internal company package or one wrapping a
 public data source.
 
-(GitHub url)\[<https://github.com/dgrtwo/dbcooper>\]
+[GitHub url](https://github.com/dgrtwo/dbcooper)
 
 ### devtoolbox
 
 rstats package for creating a single report on your package’s usage
 stats, dependency network, and #GitHub PR/issues summary!
 
-(GitHub url)\[<https://github.com/martinctc/devtoolbox>\]
+[GitHub url](https://github.com/martinctc/devtoolbox)
 
 ### riskmetric
 
@@ -207,7 +207,7 @@ packages.
 This package is in experimentation. Final considerations about design
 are being considered, but core concepts are considered final.
 
-(GitHub url)\[<https://github.com/pharmaR/riskmetric>\]
+[GitHub url](https://github.com/pharmaR/riskmetric)
 
 ## Rstudio Plugin
 
@@ -216,7 +216,7 @@ are being considered, but core concepts are considered final.
 Write quicker in markdown with {remedy}! Adds a plugin to. RStudio to
 enable easier formatting of markdown
 
-(GitHub url)\[<https://github.com/ThinkR-open/remedy>\]
+[GitHub url](https://github.com/ThinkR-open/remedy)
 
 ## Rscript or function
 
@@ -225,8 +225,8 @@ enable easier formatting of markdown
 A fuction that can be used to visualise package download metrics for
 packages on CRAN
 
-(GitHub
-url)\[<https://github.com/StatsGary/PackageTracker/blob/main/PackageTracker.R>\]
+[GitHub
+url](https://github.com/StatsGary/PackageTracker/blob/main/PackageTracker.R)
 
 ### RAG Quadrant icons
 
@@ -237,15 +237,15 @@ The icons are made using the {grid} package, and quite easy to change
 around if you need something slightly different. Hopefully it might come
 in handy to others here.
 
-(GitHub url)\[<https://github.com/ThomUK/STAR-quadrant-icon-maker>\]
+[GitHub url](https://github.com/ThomUK/STAR-quadrant-icon-maker)
 
-## Link
+## Links
 
 ### Postcode deprivation finder
 
 A web page where the Deprivation data for a postcode can be obtained
 
-(GitHub url)\[NA\]
+[GitHub url](NA)
 
 ## Resources in other languages
 
@@ -259,7 +259,7 @@ dataset. Visualizations are displayed via an interactive widget that
 enables users to quickly browse through large collections of
 visualizations and make sense of their data.
 
-(GitHub url)\[<https://github.com/lux-org/lux>\]
+[GitHub url](https://github.com/lux-org/lux)
 
 ### mermaid \[JAVASCRIPT\]
 
@@ -272,7 +272,7 @@ dynamically.
 If you are familiar with Markdown you should have no problem learning
 Mermaid’s Syntax.
 
-(GitHub url)\[<http://mermaid-js.github.io/mermaid/>\]
+[GitHub url](http://mermaid-js.github.io/mermaid/)
 
 ### Tidypolars
 
@@ -280,4 +280,4 @@ tidypolars is a data frame library built on top of the blazingly fast
 polars library that gives access to methods and functions familiar to R
 tidyverse users.
 
-(GitHub url)\[<https://github.com/markfairbanks/tidypolars>\]
+[GitHub url](https://github.com/markfairbanks/tidypolars)
