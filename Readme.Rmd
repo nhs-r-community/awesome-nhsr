@@ -1,0 +1,240 @@
+---
+title: "NHS-R Recommended packages"
+output: github_document
+---
+
+```{r setup, include=FALSE, echo=FALSE, message=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+pacman::p_load(tidyverse, tidylog, janitor, airtabler)
+
+nhsrpack <- airtable(
+    base = keyringr::decrypt_kc_pw('nhsrpackages'), 
+    tables = c("packages")
+  )
+
+packages <- nhsrpack$packages$select() %>% 
+  clean_names() 
+
+```
+
+Below you will find packages recommended by members of the NHS-R community. These have been grouped by the type of package and how it is typically applied in data analysis.  
+
+In addition there are some links to useful scripts, websites and resources for other languages at the end of the document. 
+
+## Data visualisation
+
+```{r, include=TRUE, echo=FALSE,  results='asis', message=FALSE}
+invisible(packages %>% 
+  filter(category=='Data visualisation') %>% 
+  arrange(package_name) %>% 
+  group_split(package_name) %>% 
+    purrr::imap(.,~{
+      cat("###", .$package_name, "\n")
+      cat("\n")
+      cat(.$package_function, "\n")
+      cat("\n")
+      cat( '(','GitHub url',')','[',.$git_hub,']', "\n", sep = '')
+      cat("\n")
+    })
+  )
+
+```
+
+## Data wrangling
+
+```{r, include=TRUE, echo=FALSE,  results='asis', message=FALSE}
+invisible(packages %>% 
+  filter(category=='Data wrangling') %>% 
+  arrange(package_name) %>% 
+  group_split(package_name) %>% 
+    purrr::imap(.,~{
+      cat("###", .$package_name, "\n")
+      cat("\n")
+      cat(.$package_function, "\n")
+      cat("\n")
+      cat( '(','GitHub url',')','[',.$git_hub,']', "\n", sep = '')
+#      cat( paste0('(','GitHub url',')','[',.$git_hub,']'), "\n", sep = '')
+      cat("\n")
+    })
+  )
+```
+
+## Database
+
+```{r, include=TRUE, echo=FALSE,  results='asis', message=FALSE}
+invisible(packages %>% 
+  filter(category=='Database') %>% 
+  arrange(package_name) %>% 
+  group_split(package_name) %>% 
+    purrr::imap(.,~{
+      cat("###", .$package_name, "\n")
+      cat("\n")
+      cat(.$package_function, "\n")
+      cat("\n")
+      cat( '(','GitHub url',')','[',.$git_hub,']', "\n", sep = '')
+      cat("\n")
+    })
+  )
+```
+
+## Hospital Coding
+
+```{r, include=TRUE, echo=FALSE,  results='asis', message=FALSE}
+invisible(packages %>% 
+  filter(category=='Hospital Coding') %>% 
+  arrange(package_name) %>% 
+  group_split(package_name) %>% 
+    purrr::imap(.,~{
+      cat("###", .$package_name, "\n")
+      cat("\n")
+      cat(.$package_function, "\n")
+      cat("\n")
+      cat( '(','GitHub url',')','[',.$git_hub,']', "\n", sep = '')
+      cat("\n")
+    })
+  )
+```
+
+## Modelling
+
+```{r, include=TRUE, echo=FALSE,  results='asis', message=FALSE}
+invisible(packages %>% 
+  filter(category=='Modelling') %>% 
+  arrange(package_name) %>% 
+  group_split(package_name) %>% 
+    purrr::imap(.,~{
+      cat("###", .$package_name, "\n")
+      cat("\n")
+      cat(.$package_function, "\n")
+      cat("\n")
+      cat( '(','GitHub url',')','[',.$git_hub,']', "\n", sep = '')
+      cat("\n")
+    })
+  )
+```
+
+## Reproducibility
+
+```{r, include=TRUE, echo=FALSE,  results='asis', message=FALSE}
+invisible(packages %>% 
+  filter(category=='Reproducibility') %>% 
+  arrange(package_name) %>% 
+  group_split(package_name) %>% 
+    purrr::imap(.,~{
+      cat("###", .$package_name, "\n")
+      cat("\n")
+      cat(.$package_function, "\n")
+      cat("\n")
+      cat( '(','GitHub url',')','[',.$git_hub,']', "\n", sep = '')
+      cat("\n")
+    })
+  )
+```
+
+## External data resource
+
+```{r, include=TRUE, echo=FALSE,  results='asis', message=FALSE}
+invisible(packages %>% 
+  filter(category=='External data resource') %>% 
+  arrange(package_name) %>% 
+  group_split(package_name) %>% 
+    purrr::imap(.,~{
+      cat("###", .$package_name, "\n")
+      cat("\n")
+      cat(.$package_function, "\n")
+      cat("\n")
+      cat( '(','GitHub url',')','[',.$git_hub,']', "\n", sep = '')
+      cat("\n")
+    })
+  )
+```
+
+## R Development
+
+```{r, include=TRUE, echo=FALSE,  results='asis', message=FALSE}
+invisible(packages %>% 
+  filter(category=='R Development') %>% 
+  arrange(package_name) %>% 
+  group_split(package_name) %>% 
+    purrr::imap(.,~{
+      cat("###", .$package_name, "\n")
+      cat("\n")
+      cat(.$package_function, "\n")
+      cat("\n")
+      cat( '(','GitHub url',')','[',.$git_hub,']', "\n", sep = '')
+      cat("\n")
+    })
+  )
+```
+
+## Rstudio Plugin
+
+```{r, include=TRUE, echo=FALSE,  results='asis', message=FALSE}
+invisible(packages %>% 
+  filter(category=='Rstudio Plugin') %>% 
+  arrange(package_name) %>% 
+  group_split(package_name) %>% 
+    purrr::imap(.,~{
+      cat("###", .$package_name, "\n")
+      cat("\n")
+      cat(.$package_function, "\n")
+      cat("\n")
+      cat( '(','GitHub url',')','[',.$git_hub,']', "\n", sep = '')
+      cat("\n")
+    })
+  )
+```
+
+## Rscript or function
+
+```{r, include=TRUE, echo=FALSE,  results='asis', message=FALSE}
+invisible(packages %>% 
+  filter(category=='Rscript or function') %>% 
+  arrange(package_name) %>% 
+  group_split(package_name) %>% 
+    purrr::imap(.,~{
+      cat("###", .$package_name, "\n")
+      cat("\n")
+      cat(.$package_function, "\n")
+      cat("\n")
+      cat( '(','GitHub url',')','[',.$git_hub,']', "\n", sep = '')
+      cat("\n")
+    })
+  )
+```
+
+## Link
+
+```{r, include=TRUE, echo=FALSE,  results='asis', message=FALSE}
+invisible(packages %>% 
+  filter(category=='Link') %>% 
+  arrange(package_name) %>% 
+  group_split(package_name) %>% 
+    purrr::imap(.,~{
+      cat("###", .$package_name, "\n")
+      cat("\n")
+      cat(.$package_function, "\n")
+      cat("\n")
+      cat( '(','GitHub url',')','[',.$git_hub,']', "\n", sep = '')
+      cat("\n")
+    })
+  )
+```
+
+## Resources in other languages
+
+```{r, include=TRUE, echo=FALSE,  results='asis', message=FALSE}
+invisible(packages %>% 
+  filter(category=='Resources in other languages') %>% 
+  arrange(package_name) %>% 
+  group_split(package_name) %>% 
+    purrr::imap(.,~{
+      cat("###", .$package_name, "\n")
+      cat("\n")
+      cat(.$package_function, "\n")
+      cat("\n")
+      cat( '(','GitHub url',')','[',.$git_hub,']', "\n", sep = '')
+      cat("\n")
+    })
+  )
+```
