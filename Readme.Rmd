@@ -7,6 +7,7 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 pacman::p_load(tidyverse, tidylog, janitor, airtabler)
 
+# a dataframe is impoted from the Airtable base using the airtabler package and the Airtable API
 nhsrpack <- airtable(
     base = keyringr::decrypt_kc_pw('nhsrpackages'), 
     tables = c("packages")
@@ -24,6 +25,13 @@ In addition there are some links to useful scripts, websites and resources for o
 ## Data visualisation
 
 ```{r, include=TRUE, echo=FALSE,  results='asis', message=FALSE}
+
+# This function repeats for each sub section of the readme.
+# Packages data frame is split by category which is a field in the database
+# packages are ordered alphabetically and then the data frame is split by each package
+# using purr the variables within the data frames are accessed using '.$x' and printed using cat()
+# each r chunk outputs markdown due to the chunk option results='asis'
+
 invisible(packages %>% 
   filter(category=='Data visualisation') %>% 
   arrange(package_name) %>% 
@@ -35,10 +43,14 @@ invisible(packages %>%
       cat("\n")
       cat( '[','GitHub url',']','(',.$git_hub,')', "\n", sep = '')
       cat("\n")
+      cat("\n")
     })
   )
 
 ```
+
+
+---
 
 ## Data wrangling
 
@@ -53,11 +65,14 @@ invisible(packages %>%
       cat(.$package_function, "\n")
       cat("\n")
       cat( '[','GitHub url',']','(',.$git_hub,')', "\n", sep = '')
-#      cat( paste0('(','GitHub url',')','[',.$git_hub,']'), "\n", sep = '')
+      cat("\n")
       cat("\n")
     })
   )
 ```
+
+
+---
 
 ## Database
 
@@ -73,9 +88,14 @@ invisible(packages %>%
       cat("\n")
       cat( '[','GitHub url',']','(',.$git_hub,')', "\n", sep = '')
       cat("\n")
+      cat("\n")
+      cat("\n")
     })
   )
 ```
+
+
+---
 
 ## Hospital Coding
 
@@ -91,9 +111,14 @@ invisible(packages %>%
       cat("\n")
       cat( '[','GitHub url',']','(',.$git_hub,')', "\n", sep = '')
       cat("\n")
+      cat("\n")
+      cat("\n")
     })
   )
 ```
+
+
+---
 
 ## Modelling
 
@@ -109,9 +134,14 @@ invisible(packages %>%
       cat("\n")
       cat( '[','GitHub url',']','(',.$git_hub,')', "\n", sep = '')
       cat("\n")
+      cat("\n")
+      cat("\n")
     })
   )
 ```
+
+
+---
 
 ## Reproducibility
 
@@ -127,9 +157,14 @@ invisible(packages %>%
       cat("\n")
       cat( '[','GitHub url',']','(',.$git_hub,')', "\n", sep = '')
       cat("\n")
+      cat("\n")
+      cat("\n")
     })
   )
 ```
+
+
+---
 
 ## External data resource
 
@@ -145,9 +180,14 @@ invisible(packages %>%
       cat("\n")
       cat( '[','GitHub url',']','(',.$git_hub,')', "\n", sep = '')
       cat("\n")
+      cat("\n")
+      cat("\n")
     })
   )
 ```
+
+
+---
 
 ## R Development
 
@@ -163,9 +203,14 @@ invisible(packages %>%
       cat("\n")
       cat( '[','GitHub url',']','(',.$git_hub,')', "\n", sep = '')
       cat("\n")
+      cat("\n")
+      cat("\n")
     })
   )
 ```
+
+
+---
 
 ## Rstudio Plugin
 
@@ -181,9 +226,14 @@ invisible(packages %>%
       cat("\n")
       cat( '[','GitHub url',']','(',.$git_hub,')', "\n", sep = '')
       cat("\n")
+      cat("\n")
+      cat("\n")
     })
   )
 ```
+
+
+---
 
 ## Rscript or function
 
@@ -199,9 +249,14 @@ invisible(packages %>%
       cat("\n")
       cat( '[','GitHub url',']','(',.$git_hub,')', "\n", sep = '')
       cat("\n")
+      cat("\n")
+      cat("\n")
     })
   )
 ```
+
+
+---
 
 ## Links
 
@@ -217,9 +272,13 @@ invisible(packages %>%
       cat("\n")
       cat( '[','GitHub url',']','(',.$git_hub,')', "\n", sep = '')
       cat("\n")
+      cat("\n")
+      cat("\n")
     })
   )
 ```
+
+---
 
 ## Resources in other languages
 
@@ -234,6 +293,8 @@ invisible(packages %>%
       cat(.$package_function, "\n")
       cat("\n")
       cat( '[','GitHub url',']','(',.$git_hub,')', "\n", sep = '')
+      cat("\n")
+      cat("\n")
       cat("\n")
     })
   )

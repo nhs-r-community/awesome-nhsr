@@ -23,6 +23,8 @@ aims to make visualisation easier with less brainpower required.
 
 [GitHub url](https://statisticsnz.github.io/simplevis)
 
+------------------------------------------------------------------------
+
 ## Data wrangling
 
 ### numberwang
@@ -34,6 +36,8 @@ The key differentiator of this package, compared to {nombre}, is that it
 supports decimal representations by listing individual decimal digits.
 
 [GitHub url](https://github.com/coolbutuseless/numberwang)
+
+------------------------------------------------------------------------
 
 ## Database
 
@@ -57,6 +61,8 @@ RDBMS. This allows it to scale from datasets that fit in memory to
 databases with billions of rows.
 
 [GitHub url](https://github.com/cynkra/dm)
+
+------------------------------------------------------------------------
 
 ## Hospital Coding
 
@@ -99,6 +105,8 @@ classification was missing, “Unclassifiable”.
 
 [GitHub url](https://github.com/ThomUK/robson10classifier)
 
+------------------------------------------------------------------------
+
 ## Modelling
 
 ### performance
@@ -121,6 +129,8 @@ or singularity.
 
 [GitHub url](https://easystats.github.io/performance/)
 
+------------------------------------------------------------------------
+
 ## Reproducibility
 
 ### targets
@@ -134,6 +144,8 @@ computing, abstracts files as R objects, and shows tangible evidence
 that the results match the underlying code and data.
 
 [GitHub url](https://docs.ropensci.org/targets/)
+
+------------------------------------------------------------------------
 
 ## External data resource
 
@@ -178,6 +190,8 @@ Built with FastAPI in Python.
 
 [GitHub url](https://dev.rcpch.ac.uk/)
 
+------------------------------------------------------------------------
+
 ## R Development
 
 ### dbcooper
@@ -209,6 +223,8 @@ are being considered, but core concepts are considered final.
 
 [GitHub url](https://github.com/pharmaR/riskmetric)
 
+------------------------------------------------------------------------
+
 ## Rstudio Plugin
 
 ### remedy
@@ -217,6 +233,8 @@ Write quicker in markdown with {remedy}! Adds a plugin to. RStudio to
 enable easier formatting of markdown
 
 [GitHub url](https://github.com/ThinkR-open/remedy)
+
+------------------------------------------------------------------------
 
 ## Rscript or function
 
@@ -239,6 +257,8 @@ in handy to others here.
 
 [GitHub url](https://github.com/ThomUK/STAR-quadrant-icon-maker)
 
+------------------------------------------------------------------------
+
 ## Links
 
 ### Postcode deprivation finder
@@ -246,6 +266,8 @@ in handy to others here.
 A web page where the Deprivation data for a postcode can be obtained
 
 [GitHub url](NA)
+
+------------------------------------------------------------------------
 
 ## Resources in other languages
 
