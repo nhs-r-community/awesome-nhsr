@@ -27,6 +27,16 @@ aims to make visualisation easier with less brainpower required.
 
 ## Data wrangling
 
+### NHS-MSDS-pipeline
+
+Automatically download, join, and clean the NHS Digital Maternity
+Services Monthly Statistics data (MSMS), which is derived from the
+Maternity Services Data Set (MSDS). When new information is released by
+NHS Digital, re-running the scripts will add the new information to your
+downloaded data, allowing analysis on the full dataset.
+
+[GitHub url](https://github.com/ThomUK/NHS-MSDS-pipeline)
+
 ### numberwang
 
 numberwang will convert floating point numbers (and integers) to their
@@ -180,6 +190,13 @@ including doctors, nurses, trainees, and students.
 
 [GitHub url](https://github.com/higgi13425/medicaldata/)
 
+### MHDS-pipeline
+
+This is a data processing pipeline for the NHS Mental Health Services
+Data Set
+
+[GitHub url](https://github.com/sg-peytrignet/MHSDS-pipeline)
+
 ### RCPCH - Digital growth charts server
 
 An API server and suite of tools which calculates growth centiles and
@@ -212,6 +229,16 @@ rstats package for creating a single report on your package’s usage
 stats, dependency network, and #GitHub PR/issues summary!
 
 [GitHub url](https://github.com/martinctc/devtoolbox)
+
+### Material for forwards workshops
+
+The repo hosts the materials for workshop on R package development. The
+links within the repo take you to the presentation slides, which refer
+to online materials for the exercises and further reference. All
+material in this repo is CC-BY-NC-SA.
+
+[GitHub
+url](https://github.com/forwards/workshops/tree/dc5b9fba5cdfbebc737a0a393b374a18378be122)
 
 ### riskmetric
 
