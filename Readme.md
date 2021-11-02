@@ -8,6 +8,13 @@ typically applied in data analysis.
 In addition there are some links to useful scripts, websites and
 resources for other languages at the end of the document.
 
+If you would like to suggest a package that you use in your role in the
+NHS. Please consider filling in [this
+form](https://airtable.com/shr7xXh4KJpAKzvZ8) so we can add the resource
+to the page.  
+Alternatively join the [NHS-R slack channel](nhsrcommunity.slack.com)
+and add your recommendation as a post in the packages channel.
+
 ## Data visualisation
 
 ### ddplot
