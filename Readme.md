@@ -23,6 +23,16 @@ Create D3 based SVG graphics using a simple R Api
 
 [GitHub url](https://feddelegrand7.github.io/ddplot/)
 
+### runcharter
+
+Plots multiple run charts, finds successive signals of improvement, and
+revises medians when each signal occurs. Finds runs above, below, or on
+both sides of the median, and returns a plot and a data.table
+summarising original medians and any revisions, for all groups within
+the supplied data.
+
+[GitHub url](https://github.com/johnmackintosh/runcharter)
+
 ### simplevis
 
 simplevis is a package of ggplot2 and leaflet wrapper functions that
@@ -53,6 +63,29 @@ The key differentiator of this package, compared to {nombre}, is that it
 supports decimal representations by listing individual decimal digits.
 
 [GitHub url](https://github.com/coolbutuseless/numberwang)
+
+### padr
+
+padr is an R package that assists with preparing time series data. It
+provides two main functions that will quickly get the data in the format
+you want. When data is observed on too low a level, thicken will add a
+column of a higher interval to the data frame, after which the user can
+apply the appropriate aggregation. When there are missing records for
+time points where observations were absent, pad will automatically
+insert these records. A number of fill\_ functions help to subsequently
+fill the missing values.
+
+[GitHub url](https://github.com/EdwinTh/padr)
+
+### widyr
+
+Encapsulates the pattern of untidying data into a wide matrix,
+performing some processing, then turning it back into a tidy form. This
+is useful for several operations such as co-occurrence counts,
+correlations, or clustering that are mathematically convenient on wide
+matrices.
+
+[GitHub url](https://github.com/dgrtwo/widyr)
 
 ------------------------------------------------------------------------
 
