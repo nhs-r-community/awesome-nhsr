@@ -457,7 +457,7 @@ NA
 
 A web page where the Deprivation data for a postcode can be obtained
 
-[GitHub url](NA)
+[GitHub url](https://alasdairrae.github.io/postcodez/)
 
 ------------------------------------------------------------------------
 
