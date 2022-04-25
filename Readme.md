@@ -17,11 +17,51 @@ and add your recommendation as a post in the packages channel.
 
 ## Data visualisation
 
+### Cumsumcharter
+
+The goal of cusumcharter is to create both simple CUSUM charts, with and
+without control limits from a vector, or to create multiple CUSUM
+charts, with or without control limits, from a grouped dataframe, tibble
+or data.table.
+
+CUSUM charts detect small changes over time, and will alert quicker than
+a Statistical Process Control chart. They are an excellent alternative
+to run and control charts, particularly where data is scarce,
+infrequent, or expensive to obtain.
+
+They monitor the difference between each data point, relative to a
+target value, which is often the mean of all the currently available
+data points. Using these variances and targets, control limits are
+calculated. Any points outside these limits are an indication that the
+process is out of control.
+
+[GitHub url](https://github.com/johnmackintosh/cusumcharter)
+
 ### ddplot
 
 Create D3 based SVG graphics using a simple R Api
 
 [GitHub url](https://feddelegrand7.github.io/ddplot/)
+
+### MetBrewer
+
+Palettes inspired by works at the Metropolitan Museum of Art in New
+York. Pieces selected come from various time periods, regions, and
+mediums.
+
+[GitHub url](https://github.com/BlakeRMills/MetBrewer/tree/main)
+
+### Orgcharter
+
+The goal of orgcharter is to help make simple organisation charts, to
+help you communicate your organisation’s structure to those who need to
+understand it. Often, that is the people who work within it!
+
+This package is a convenient wrapper around the {DiagrammeR} package. If
+you are interested in understanding more or extending this package, that
+is a very good place to start.
+
+[GitHub url](https://github.com/ThomUK/orgcharter)
 
 ### runcharter
 
@@ -112,6 +152,13 @@ databases with billions of rows.
 
 [GitHub url](https://github.com/cynkra/dm)
 
+### duckdb
+
+DuckDB is an in-process SQL OLAP database management system. The
+developers say It is : - Simple - Fast - Feature-rich - Free
+
+[GitHub url](NA)
+
 ------------------------------------------------------------------------
 
 ## Hospital Coding
@@ -195,9 +242,39 @@ that the results match the underlying code and data.
 
 [GitHub url](https://docs.ropensci.org/targets/)
 
+### tracdown
+
+The trackdown package offers a simple solution for collaborative writing
+and editing of R Markdown (or Sweave) documents. Using trackdown, the
+local .Rmd (or .Rnw) file can be uploaded as a plain-text file to Google
+Drive. By taking advantage of the easily readable Markdown (or LaTeX)
+syntax and the well-known online interface offered by Google Docs,
+collaborators can easily contribute to the writing and editing process.
+After integrating all authors’ contributions, the final document can be
+downloaded and rendered locally.
+
+[GitHub url](https://github.com/claudiozandonella/trackdown/)
+
 ------------------------------------------------------------------------
 
 ## External data resource
+
+### a11ytables
+
+An R package to help you create spreadsheets that adhere to the latest
+guidance (June 2021) on releasing statistics in spreadsheets from the
+Best Practice and Impact Division (BPID) of the UK’s Government
+Statistical Service.
+
+[GitHub url](https://github.com/co-analysis/a11ytables)
+
+### addressMatchR
+
+Helper package for matching addresses with an integration to Ordnance
+Survey API. This R package has been developed by NHS Business Services
+Authority Data Science team.
+
+[GitHub url](https://github.com/nhsbsa-data-analytics/addressMatchR)
 
 ### Deprivare
 
@@ -212,6 +289,14 @@ command-line tools to allow other software to make use of deprivation
 indices in the UK
 
 [GitHub url](https://github.com/wardle/deprivare)
+
+### geographr
+
+geographr is an R package for mapping UK geographies . Package include
+geographical geospatial data sets (boundaries and lookups) eg CCG
+boundaries
+
+[GitHub url](https://github.com/britishredcrosssociety/geographr)
 
 ### LSOA POP
 
@@ -270,6 +355,20 @@ stats, dependency network, and #GitHub PR/issues summary!
 
 [GitHub url](https://github.com/martinctc/devtoolbox)
 
+### difftastic
+
+Difftastic is an experimental diff tool that compares files based on
+their syntax.
+
+1.  Difftastic understands nesting. It highlights e.g. the matching {
+    and }
+
+2.  Difftastic understands which lines should be aligned
+
+3.  Difftastic understands that line-wrapping isn’t meaningful
+
+[GitHub url](https://github.com/Wilfred/difftastic)
+
 ### Material for forwards workshops
 
 The repo hosts the materials for workshop on R package development. The
@@ -324,9 +423,35 @@ in handy to others here.
 
 [GitHub url](https://github.com/ThomUK/STAR-quadrant-icon-maker)
 
+### renv-install-system-deps - GitHub action
+
+NA
+
+[GitHub url](https://github.com/tomjemmett/renv-install-system-deps)
+
+### setup-r-icons - GitHub actions
+
+NA
+
+[GitHub url](https://github.com/tomjemmett/setup-r-icons)
+
+### smokingPrevalence
+
+The goal of smokingPrevalence is to store functions that are used in
+analysis for smoking prevalence including ONS public prevalence
+information to compare to.
+
+[GitHub url](https://lextuga007.github.io/smokingPrevalence/index.html)
+
 ------------------------------------------------------------------------
 
 ## Links
+
+### Getting started with unit testing in R
+
+NA
+
+[GitHub url](NA)
 
 ### Postcode deprivation finder
 
