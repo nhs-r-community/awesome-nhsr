@@ -8,7 +8,7 @@ name: Render readme and create a PR
 jobs:
   render_readme:
     runs-on: ubuntu-latest
-    if: github.event.label.name == 'airtable-update'
+    # if: github.event.label.name == 'airtable-update'
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
       AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
