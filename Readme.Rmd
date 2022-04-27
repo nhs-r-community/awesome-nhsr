@@ -5,13 +5,13 @@ output: github_document
 
 ```{r setup, include=FALSE, echo=FALSE, message=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-pacman::p_load(tidyverse, tidylog, janitor, airtabler)
+library(tidyverse)
+library(tidylog)
+library(janitor)
+library(airtabler)
 
-# a dataframe is impoted from the Airtable base using the airtabler package and the Airtable API
-nhsrpack <- airtable(
-    base = keyringr::decrypt_kc_pw('nhsrpackages'), 
-    tables = c("packages")
-  )
+# a dataframe is imported from the Airtable base using the airtabler package and the Airtable API
+nhsrpack <- airtable(base = Sys.getenv("AIRTABLE_BASE"), tables = c("packages"))
 
 packages <- nhsrpack$packages$select() %>% 
   clean_names() 
