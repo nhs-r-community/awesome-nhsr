@@ -1,6 +1,6 @@
 on:
   issues:
-    types: [opened]
+    types: [labelled]
 
 name: Render readme and create a PR
 
