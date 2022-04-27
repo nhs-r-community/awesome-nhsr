@@ -55,7 +55,7 @@ mediums.
 
 The goal of orgcharter is to help make simple organisation charts, to
 help you communicate your organisation’s structure to those who need to
-understand it. Often, that is the people who work within it!
+understand it. Often, that is the people who work within it\!
 
 This package is a convenient wrapper around the {DiagrammeR} package. If
 you are interested in understanding more or extending this package, that
@@ -80,7 +80,7 @@ aims to make visualisation easier with less brainpower required.
 
 [GitHub url](https://statisticsnz.github.io/simplevis)
 
-------------------------------------------------------------------------
+-----
 
 ## Data wrangling
 
@@ -127,7 +127,7 @@ matrices.
 
 [GitHub url](https://github.com/dgrtwo/widyr)
 
-------------------------------------------------------------------------
+-----
 
 ## Database
 
@@ -159,7 +159,7 @@ developers say It is : - Simple - Fast - Feature-rich - Free
 
 [GitHub url](NA)
 
-------------------------------------------------------------------------
+-----
 
 ## Hospital Coding
 
@@ -192,23 +192,23 @@ lists of SNOMED CT concepts.
 
 ### robson10classifier
 
-The main function implemented so far is tgcs_classify(). It takes as an
+The main function implemented so far is tgcs\_classify(). It takes as an
 input a data frame containing a minimum of 6 columns, one for each of
 the obstetric variables that are used to classify the Robson Groups.
 Each row in the data frame represents a birth. The function returns the
-same data frame, with an additional column for Robson_Classification.
+same data frame, with an additional column for Robson\_Classification.
 This can be a number from 1 to 10, or in the case that data required for
 classification was missing, “Unclassifiable”.
 
 [GitHub url](https://github.com/ThomUK/robson10classifier)
 
-------------------------------------------------------------------------
+-----
 
 ## Modelling
 
 ### performance
 
-Test if your model is a good model!
+Test if your model is a good model\!
 
 A crucial aspect when building regression models is to evaluate the
 quality of modelfit. It is important to investigate how well models fit
@@ -226,7 +226,7 @@ or singularity.
 
 [GitHub url](https://easystats.github.io/performance/)
 
-------------------------------------------------------------------------
+-----
 
 ## Reproducibility
 
@@ -255,7 +255,7 @@ downloaded and rendered locally.
 
 [GitHub url](https://github.com/claudiozandonella/trackdown/)
 
-------------------------------------------------------------------------
+-----
 
 ## External data resource
 
@@ -332,7 +332,7 @@ Built with FastAPI in Python.
 
 [GitHub url](https://dev.rcpch.ac.uk/)
 
-------------------------------------------------------------------------
+-----
 
 ## R Development
 
@@ -351,7 +351,7 @@ public data source.
 ### devtoolbox
 
 rstats package for creating a single report on your package’s usage
-stats, dependency network, and #GitHub PR/issues summary!
+stats, dependency network, and \#GitHub PR/issues summary\!
 
 [GitHub url](https://github.com/martinctc/devtoolbox)
 
@@ -360,12 +360,12 @@ stats, dependency network, and #GitHub PR/issues summary!
 Difftastic is an experimental diff tool that compares files based on
 their syntax.
 
-1.  Difftastic understands nesting. It highlights e.g. the matching {
+1)  Difftastic understands nesting. It highlights e.g. the matching {
     and }
 
-2.  Difftastic understands which lines should be aligned
+2)  Difftastic understands which lines should be aligned
 
-3.  Difftastic understands that line-wrapping isn’t meaningful
+3)  Difftastic understands that line-wrapping isn’t meaningful
 
 [GitHub url](https://github.com/Wilfred/difftastic)
 
@@ -389,18 +389,18 @@ are being considered, but core concepts are considered final.
 
 [GitHub url](https://github.com/pharmaR/riskmetric)
 
-------------------------------------------------------------------------
+-----
 
 ## Rstudio Plugin
 
 ### remedy
 
-Write quicker in markdown with {remedy}! Adds a plugin to. RStudio to
+Write quicker in markdown with {remedy}\! Adds a plugin to. RStudio to
 enable easier formatting of markdown
 
 [GitHub url](https://github.com/ThinkR-open/remedy)
 
-------------------------------------------------------------------------
+-----
 
 ## Rscript or function
 
@@ -443,7 +443,7 @@ information to compare to.
 
 [GitHub url](https://lextuga007.github.io/smokingPrevalence/index.html)
 
-------------------------------------------------------------------------
+-----
 
 ## Links
 
@@ -457,9 +457,9 @@ NA
 
 A web page where the Deprivation data for a postcode can be obtained
 
-[GitHub url](https://alasdairrae.github.io/postcodez/)
+[GitHub url](NA)
 
-------------------------------------------------------------------------
+-----
 
 ## Resources in other languages
 
