@@ -6,7 +6,6 @@ output: github_document
 ```{r setup, include=FALSE, echo=FALSE, message=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
-library(tidylog)
 library(janitor)
 library(airtabler)
 
