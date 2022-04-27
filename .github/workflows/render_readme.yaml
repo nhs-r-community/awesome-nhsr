@@ -1,0 +1,31 @@
+on:
+  issues:
+    types: [opened]
+
+name: Render readme and create a PR
+
+jobs:
+  render_readme:
+    runs-on: ubuntu-latest
+    if: github.event.label.name == 'airtable-update'
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
+      AIRTABLE_BASE: ${{ secrets.AIRTABLE_BASE }}
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: r-lib/actions/setup-pandoc@v1
+
+      - uses: r-lib/actions/setup-r@v1
+        with:
+          use-public-rspm: true
+
+      - uses: r-lib/actions/setup-renv@v1
+
+      - name: Build Readme
+        run: Rscript -e 'rmarkdown::render("Readme.rmd")'
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v4
+        add-paths: Readme.md
