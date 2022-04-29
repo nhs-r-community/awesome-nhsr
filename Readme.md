@@ -453,6 +453,12 @@ NA
 
 [GitHub url](NA)
 
+### GitHub CLI
+
+GitHub CLI brings GitHub to your terminal. Free and open source.
+
+[GitHub url](https://cli.github.com)
+
 ### Postcode deprivation finder
 
 A web page where the Deprivation data for a postcode can be obtained
